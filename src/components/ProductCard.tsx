@@ -3,7 +3,6 @@ import './ProductCard.css';
 import { useSelector } from 'react-redux';
 import { RootState } from '../app/store';
 
-
 const ProductCard: React.FC = () => {
   const info = useSelector((state: RootState) => state.table.productData);
   return (

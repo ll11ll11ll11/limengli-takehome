@@ -2,7 +2,7 @@
   "name": "limengli-project",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://limengli.github.io/limengli-takehome",
+  "homepage": "https://ll11ll11ll11.github.io/limengli-takehome/",
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.4",
     "@testing-library/jest-dom": "^5.17.0",

@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/limengli-takehome/static/css/main.e3fc4ece.css",
+    "main.js": "/limengli-takehome/static/js/main.247a1916.js",
+    "static/js/453.27ac7e99.chunk.js": "/limengli-takehome/static/js/453.27ac7e99.chunk.js",
+    "static/media/stackline_logo.svg": "/limengli-takehome/static/media/stackline_logo.5935081bd899ecfe02395699e768f84e.svg",
+    "index.html": "/limengli-takehome/index.html",
+    "main.e3fc4ece.css.map": "/limengli-takehome/static/css/main.e3fc4ece.css.map",
+    "main.247a1916.js.map": "/limengli-takehome/static/js/main.247a1916.js.map",
+    "453.27ac7e99.chunk.js.map": "/limengli-takehome/static/js/453.27ac7e99.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e3fc4ece.css",
+    "static/js/main.247a1916.js"
+  ]
+}

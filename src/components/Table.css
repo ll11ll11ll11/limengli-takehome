@@ -1,0 +1,95 @@
+.table-pretty {
+    border-collapse: collapse; 
+    font-size: 0.9em;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    overflow-x: hidden;
+  }
+  
+  .table-pretty th,
+  .table-pretty td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #dddddd;
+    color: #A9A9A9;
+  }
+  
+  .table-pretty thead th {
+    background-color: #ffffff;
+    color: #818589;
+    text-transform: uppercase;
+  }
+  
+  .table-pretty tbody tr:hover {
+    background-color: #f3f3f3;
+  }
+  
+  .table-pretty tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+  }
+  
+table {
+  border-collapse: collapse;
+  overflow: hidden;
+}
+
+
+tbody {
+  display: block;
+  max-height: 35vh;
+  overflow-y: scroll;
+}
+
+thead, tbody tr {
+  display: table;
+  width: 75vw;
+  table-layout: fixed;
+}
+
+input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 20vw;
+  margin-bottom: 10px;
+}
+
+input:hover {
+  border-color: #666;
+}
+
+input:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+th {
+  position: relative;
+  cursor: pointer;
+}
+
+th::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 5px 5px 5px;
+  border-color: transparent transparent #818589 transparent;
+}
+
+th.asc::after {
+  border-width: 0 5px 5px 5px;
+  border-color: transparent transparent #818589 transparent;
+}
+
+th.desc::after {
+  border-width: 5px 5px 0 5px;
+  border-color: #818589 transparent transparent transparent;
+}
+

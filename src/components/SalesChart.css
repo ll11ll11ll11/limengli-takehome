@@ -1,0 +1,28 @@
+.custom-tooltip {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.custom-tooltip h4 {
+    margin: 0;
+    color: #333;
+    font-size: 16px;
+}
+
+.custom-tooltip p {
+    margin: 8px 0 0;
+    color: #666;
+    font-size: 14px;
+}
+
+.chart-container {
+    height: 35vh; 
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 0;
+    color: #818589;
+}
